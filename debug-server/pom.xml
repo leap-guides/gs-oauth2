@@ -19,6 +19,8 @@
 	</properties>
 
     <build>
+        <finalName>debug-server</finalName>
+
         <plugins>
             <plugin>
                 <groupId>org.eclipse.jetty</groupId>

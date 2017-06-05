@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.leapframework.org/schema/config">
-    
+
     <base-package>gs.oauth2</base-package>
+
+    <debug>true</debug>
 
     <properties>
         <property name="jdbc.driverClassName">org.h2.Driver</property>
