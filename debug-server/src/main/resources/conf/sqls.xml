@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sqls xmlns="http://www.leapframework.org/schema/sqls">
+
+    <command key="security.findUserDetailsByLoginName" override="true">
+
+        select * from users where name = :loginName
+
+    </command>
+
+</sqls>
