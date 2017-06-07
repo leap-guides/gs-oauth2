@@ -1,1 +1,1 @@
-docker build -t leapfamework/debug-auth-server .
+docker build -t leapframework/debug-auth-server .
