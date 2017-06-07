@@ -2,9 +2,11 @@
 <apis xmlns="http://www.leapframework.org/schema/webapi">
 
     <api name="restd" base-path="/restd" default-anonymous="true" restd-enabled="true">
+        <!--
         <restd>
             <included-models>User,Client</included-models>
         </restd>
+        -->
     </api>
 
 </apis>

@@ -30,6 +30,7 @@ public class Global extends App {
             for(int i=1;i<=3;i++) {
                 User user = new User();
                 user.setName("user" + i);
+                user.setLoginName("user" + i);
                 user.setPassword(SEC.encodePassword("pass" + 1));
                 user.create();
             }
@@ -42,8 +43,8 @@ public class Global extends App {
                 Client client = new Client();
                 client.setId("client" + i);
                 client.setSecret("secret" + i);
-                client.setRedirectUriPattern("*");
-                client.setLogoutUriPattern("*");
+                client.setRedirectUriPattern("**");
+                client.setLogoutUriPattern("**");
                 client.create();
             }
 

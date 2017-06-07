@@ -3,13 +3,21 @@ package gs.oauth2.models;
 import leap.orm.annotation.Column;
 import leap.orm.annotation.Id;
 import leap.orm.annotation.Table;
+import leap.orm.annotation.Unique;
 import leap.orm.model.Model;
 
 @Table(name="users", autoCreate = true)
 public class User extends Model {
 
-    @Id(generate = false)
+    @Id(generator = "shortid")
+    protected String id;
+
+    @Column
     protected String name;
+
+    @Unique
+    @Column
+    protected String loginName;
 
     @Column
     protected String  password;
@@ -17,12 +25,28 @@ public class User extends Model {
     @Column
     protected boolean enabled = true;
 
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
     public String getName() {
         return name;
     }
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getLoginName() {
+        return loginName;
+    }
+
+    public void setLoginName(String loginName) {
+        this.loginName = loginName;
     }
 
     public String getPassword() {
