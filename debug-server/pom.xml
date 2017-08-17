@@ -13,7 +13,7 @@
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
 
-		<leap.version>0.6.2b</leap.version>
+		<leap.version>0.6.4b</leap.version>
         <slf4j.version>1.7.5</slf4j.version>
         <logback.version>1.0.13</logback.version>		
 	</properties>
@@ -36,6 +36,12 @@
 	        <artifactId>leap</artifactId>
 	        <version>${leap.version}</version>
 	        <type>pom</type>
+	    </dependency>
+
+	    <dependency>
+	        <groupId>org.leapframework</groupId>
+	        <artifactId>leap-oauth2-server</artifactId>
+	        <version>${leap.version}</version>
 	    </dependency>
 
         <dependency>

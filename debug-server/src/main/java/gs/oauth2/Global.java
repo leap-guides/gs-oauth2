@@ -4,7 +4,7 @@ import gs.oauth2.models.Client;
 import gs.oauth2.models.User;
 import leap.core.annotation.Inject;
 import leap.core.security.SEC;
-import leap.oauth2.as.OAuth2AuthzServerConfigurator;
+import leap.oauth2.server.OAuth2AuthzServerConfigurator;
 import leap.web.App;
 import leap.web.api.Apis;
 import leap.web.config.WebConfigurator;
@@ -12,7 +12,8 @@ import leap.web.config.WebConfigurator;
 public class Global extends App {
 
     protected @Inject Apis apis;
-    protected @Inject OAuth2AuthzServerConfigurator asc;
+    protected @Inject
+    OAuth2AuthzServerConfigurator asc;
 
     @Override
     protected void configure(WebConfigurator c) {
