@@ -11,4 +11,27 @@
         <property name="jdbc.username">sa</property>
     </properties>
 
+    <properties prefix="oauth2.as">
+        <property name="privateKey">
+            MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKI7NaTLoseQYaLgScNRVyvVzpc2
+            4OsZMMCRLU1jfxGwjQHFsZlWchTwJIo5D1HVqMAyiOr8MGgVIk+WlPwnyVriZNQx7CQacL92A6Tp
+            iqZfJRWlBRlI3r0WOOLy9tIsH90x6IPpTBOE9R5DRqaYePQ6N5264xMtSDVKaqQ1HuDZAgMBAAEC
+            gYEAlX2F8vMKbmZm8dVHY0nCz8vW8JRLMZgmymt8mUFDyCMt7CIlgyybNxwKL6xgp4IAXAq1DAOS
+            /3XqBfi2FJz89tt++FRITzs1LAqCAyKxEBaBPRxW0yM05FP12Ws3b66tgQgO3SuyDFFUDxKMXhLy
+            a1181Mv4IlmKNKAircHaaAECQQDximZMGk1DRtNydSAfHUF73wrX6ztZgzzoc2q2h3go9UeDS92J
+            27okXNmhKEmJeORPyuFgnTchlfCl3skliyZZAkEAq/FlxTFZNlJXP3JY2oSlhOWYdQeOYjhk85wo
+            bQ/8FxF02zMIDE4A+BLaYa+8q6IjmkD6ekhgUNv/TEP4I48+gQJBAIlrekP1+ts54ncOGBZbqLP2
+            885gcMW+mtqNP7tVW5HB6svST9ps/nxNryu3Jg9mjk6vWIaFK6aaDe3w0HPhtRECQAHeNYTW7Gky
+            q8/8pgp5tnKjK+zZkCpxAmfDIo1MxyhZADQBcezwTAJl8gltp1cWA90BJ7d8Yc9/FF73vhJk1AEC
+            QGLZ+A89LrD7tEDFyU7iI/gadfP9jJtUQeXBqugdq6XHKw+8IRmL2MMAgrfUDKIlg+YK1e1rGc00
+            3Fy93A+8CMs=
+        </property>
+        <property name="publicKey">
+            MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCiOzWky6LHkGGi4EnDUVcr1c6XNuDrGTDAkS1N
+            Y38RsI0BxbGZVnIU8CSKOQ9R1ajAMojq/DBoFSJPlpT8J8la4mTUMewkGnC/dgOk6YqmXyUVpQUZ
+            SN69Fjji8vbSLB/dMeiD6UwThPUeQ0ammHj0OjeduuMTLUg1SmqkNR7g2QIDAQAB
+        </property>
+    </properties>
+    
+    
 </config>
