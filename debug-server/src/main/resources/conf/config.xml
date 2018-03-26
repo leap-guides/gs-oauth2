@@ -12,6 +12,7 @@
     </properties>
 
     <properties prefix="oauth2.as">
+        <property name="requestLevelScopeEnabled" value="true"/>
         <property name="privateKey">
             MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAKI7NaTLoseQYaLgScNRVyvVzpc2
             4OsZMMCRLU1jfxGwjQHFsZlWchTwJIo5D1HVqMAyiOr8MGgVIk+WlPwnyVriZNQx7CQacL92A6Tp

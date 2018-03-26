@@ -1,12 +1,11 @@
 package gs.oauth2.controllers.jwt;
 
-import leap.core.BeanFactory;
 import leap.core.annotation.Inject;
 import leap.core.security.annotation.AllowAnonymous;
 import leap.core.security.token.jwt.JWT;
 import leap.core.security.token.jwt.JwtSigner;
 import leap.core.security.token.jwt.RsaSigner;
-import leap.oauth2.as.OAuth2AuthzServerConfig;
+import leap.oauth2.server.OAuth2AuthzServerConfig;
 import leap.web.annotation.Path;
 import leap.web.annotation.http.POST;
 import leap.web.api.mvc.ApiController;
@@ -23,7 +22,7 @@ import java.util.Map;
 @AllowAnonymous
 public class JwtController extends ApiController {
     
-    protected JwtSigner signer;
+    protected         JwtSigner               signer;
     protected @Inject OAuth2AuthzServerConfig config;
 
     @POST
